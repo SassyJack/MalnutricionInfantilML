@@ -3,6 +3,69 @@
 {% block title %}Inicio{% endblock %}
 
 {% block content %}
-<h1>Bienvenido a la página de inicio</h1>
-<p>Contenido de la página principal.</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción de Malnutrición Infantil en Bogotá</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Predicción de Malnutrición Infantil en Bogotá</h1>
+        
+        <h3>Planteamiento del problema y justificación</h3>
+        <p>
+            La malnutrición infantil representa una amenaza crítica para el desarrollo físico y cognitivo de millones de niños,
+            particularmente en regiones vulnerables como Bogotá. De acuerdo con la Organización Mundial de la Salud (OMS),
+            el 45% de las muertes en menores de 5 años están relacionadas con la desnutrición.
+            Esta problemática no solo compromete la supervivencia infantil, sino que también limita el potencial de desarrollo de la sociedad.
+        </p>
+        <p>
+            Este proyecto busca abordar esta situación desarrollando un modelo de machine learning capaz de predecir el riesgo de malnutrición infantil
+            (malnutrición, nutrición adecuada) a partir de datos clínicos, antropométricos y socioeconómicos.
+            Además, la iniciativa está alineada con los Objetivos de Desarrollo Sostenible, contribuyendo directamente al ODS 2 (Hambre cero) y al ODS 3 (Salud y bienestar).
+        </p>
+
+        <h3>Objetivos del proyecto</h3>
+        <h5>Objetivo general</h5>
+        <p>
+            Desarrollar un modelo de machine learning supervisado que permita predecir el nivel de riesgo de malnutrición infantil en Bogotá,
+            a partir de variables antropométricas, socioeconómicas y clínicas, con el fin de apoyar la toma de decisiones en programas sociales y de salud pública.
+        </p>
+        <h5>Objetivos específicos</h5>
+        <ul>
+            <li>Recopilar y limpiar datos relevantes sobre malnutrición infantil, incluyendo variables antropométricas, socioeconómicas y clínicas.</li>
+            <li>Implementar un modelo de aprendizaje supervisado (como árboles de decisión o XGBoost) para clasificar el riesgo de malnutrición.</li>
+            <li>Validar el modelo mediante métricas de evaluación estándar para asegurar su precisión y utilidad práctica.</li>
+        </ul>
+
+        <h3>ODS (Objetivos de Desarrollo Sostenible) Relacionados</h3>
+        <ul>
+            <li><strong>ODS 2: Hambre Cero</strong>: Reducir la prevalencia de desnutrición en poblaciones vulnerables.</li>
+            <li><strong>ODS 3: Salud y Bienestar</strong>: Mejorar la calidad de vida de los niños mediante intervenciones preventivas eficaces.</li>
+        </ul>
+
+        <h3>Marco referencial</h3>
+        <p>
+            Este proyecto se basa en el marco metodológico CRISP-ML, una extensión del modelo CRISP-DM enfocado en el desarrollo de soluciones de machine learning con garantías de calidad.
+            Se emplean algoritmos de clasificación supervisada como árboles de decisión y XGBoost, debido a su efectividad comprobada en contextos de predicción de riesgos en salud.
+        </p>
+        <p>
+            Las referencias técnicas provienen de fuentes como KDnuggets, ML-Ops.org y publicaciones académicas revisadas por pares.
+            Además, se apoyó el proceso de redacción y análisis con herramientas de inteligencia artificial para asegurar claridad, coherencia y rigor académico.
+        </p>
+
+        <h3>Referencias</h3>
+        <ul>
+            <li>KDnuggets. (2025). <em>Model evaluation in machine learning: Ensuring reliability in real-world applications</em>. <a href="https://www.kdnuggets.com" target="_blank">https://www.kdnuggets.com</a></li>
+            <li>ML-Ops.org. (s.f.). <em>Best practices for model deployment and monitoring</em>. <a href="https://ml-ops.org" target="_blank">https://ml-ops.org</a></li>
+            <li>Schmid, J., Wurst, M., & Wirth, R. (2020). <em>Towards CRISP-ML(Q): A machine learning process model with quality assurance methodology</em>. Journal of Machine Learning Research, 21(123), 1-23.</li>
+            <li>World Health Organization. (2021). <em>Malnutrition in children: Key facts</em>. <a href="https://www.who.int/news-room/fact-sheets/detail/malnutrition" target="_blank">https://www.who.int/news-room/fact-sheets/detail/malnutrition</a></li>
+            <li>PlantVillage. (s.f.). <em>PlantVillage dataset: Images of crop diseases</em>. Pennsylvania State University. <a href="https://plantvillage.psu.edu" target="_blank">https://plantvillage.psu.edu</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
 {% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Uso de IA{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción de Malnutrición Infantil en Bogotá</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Uso de Inteligencia Artificial en la Detección de Malnutrición Infantil</h1>
+    
+    <p>Este sistema utiliza modelos de aprendizaje automático para predecir la probabilidad de malnutrición en niños, basado en variables como peso, talla, edad, nivel socioeconómico, entre otros.</p>
+    
+    <h3 class="mt-4">¿Cómo funciona?</h3>
+    <ul>
+        <li>El usuario carga un archivo con los datos de entrada (por ejemplo, en formato Excel).</li>
+        <li>Los datos se procesan y se aplican técnicas de limpieza y normalización.</li>
+        <li>Un modelo de aprendizaje automático, entrenado previamente (por ejemplo, con XGBoost), realiza las predicciones.</li>
+        <li>El resultado muestra si un niño tiene riesgo de desnutrición o si su estado nutricional es adecuado.</li>
+    </ul>
+
+    <h3 class="mt-4">Ventajas del uso de IA</h3>
+    <ul>
+        <li>Evaluación rápida y automática.</li>
+        <li>Reducción de errores humanos en diagnósticos preliminares.</li>
+        <li>Identificación temprana de casos potenciales.</li>
+    </ul>
+
+    <h3 class="mt-4">Limitaciones</h3>
+    <ul>
+        <li>Dependencia de la calidad de los datos.</li>
+        <li>No reemplaza el diagnóstico médico profesional.</li>
+    </ul>
+
+    <p class="mt-4">Este sistema fue desarrollado como parte de un proyecto universitario para demostrar el potencial de la IA en el sector salud, especialmente en contextos de vulnerabilidad infantil.</p>
+</div>
+{% endblock %}
