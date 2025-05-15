@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}Ingenieria de Datos{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Justificación del Modelo de Árbol de Decisión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <h1>Justificación del Uso del Árbol de Decisión</h1>
+
+    <h2>1. Naturaleza del Problema</h2>
+    <p>El objetivo es clasificar el <strong>estado nutricional</strong> de niños y adolescentes (e.g., “Bajo peso”, “Normal”, “Sobrepeso”) a partir de variables como peso, altura, edad, sexo y lugar. Esto define un <strong>problema de clasificación supervisada</strong>.</p>
+
+    <h2>2. Métricas de Desempeño</h2>
+    <p>Para evaluar la efectividad del modelo se utilizaron métricas apropiadas para clasificación:</p>
+    <ul>
+        <li><strong>Precisión</strong>: proporción de clasificaciones correctas sobre el total.</li>
+        <li><strong>Recall (sensibilidad)</strong>: capacidad del modelo para identificar correctamente una clase específica.</li>
+        <li><strong>F1-Score</strong>: balance entre precisión y recall, útil en conjuntos desbalanceados.</li>
+        <li><strong>Matriz de confusión</strong>: permite visualizar errores por clase y ayuda a identificar sesgos.</li>
+    </ul>
+
+    <h2>3. Validación Cruzada</h2>
+    <p>Para garantizar la capacidad de generalización del modelo y evitar que los resultados dependan de una única partición del dataset, se implementó <strong>validación cruzada k-fold (k=5)</strong>. Este procedimiento divide los datos en 5 partes, entrenando el modelo en 4 y evaluando en la restante, repitiendo el proceso 5 veces para obtener una media robusta de desempeño.</p>
+
+    <h2>4. Análisis de Riesgos</h2>
+    <ul>
+        <li><strong>Sobreajuste</strong>: el árbol de decisión puede crecer demasiado, memorizando los datos. Se mitigó mediante:
+            <ul>
+                <li>Limitación de profundidad máxima del árbol.</li>
+                <li>Establecimiento de número mínimo de muestras por hoja.</li>
+            </ul>
+        </li>
+        <li><strong>Subajuste</strong>: si el árbol es muy simple, no captura patrones. Se revisó la profundidad y la ganancia de información en nodos.</li>
+        <li><strong>Sesgo</strong>: se analizaron posibles sesgos de clasificación relacionados con variables como sexo o lugar. El modelo mostró comportamiento balanceado gracias al preprocesamiento de datos.</li>
+    </ul>
+
+    <h2>5. Ventajas del Árbol de Decisión</h2>
+    <ul>
+        <li><strong>Interpretabilidad</strong>: permite visualizar y entender fácilmente cómo se toman las decisiones.</li>
+        <li><strong>Escalabilidad</strong>: adecuado para conjuntos medianos como el presente (500 registros).</li>
+        <li><strong>No requiere normalización</strong>: trabaja directamente con variables numéricas y categóricas.</li>
+    </ul>
+
+    <h2>6. Comparación con Otros Modelos</h2>
+    <p>Aunque modelos como XGBoost ofrecen mejor rendimiento en algunos casos, se prefirió inicialmente el árbol de decisión por su simplicidad, facilidad de explicación y utilidad para comprender las relaciones entre las variables. Posteriormente, XGBoost puede usarse como un modelo mejorado tras optimizar hiperparámetros y ampliar el dataset.</p>
+
+    <p>Este enfoque permite comenzar con una base sólida, interpretativa y educativa, antes de escalar a modelos más complejos.</p>
+
+</body>
+</html>
+{% endblock %}

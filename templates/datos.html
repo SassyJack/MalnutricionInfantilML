@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block title %}Ingenieria de Datos{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentación de Preparación de Datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <h1>Documentación del Proceso de Preparación de Datos</h1>
+
+    <h2>1. Selección</h2>
+    <p>El dataset fue generado a partir del archivo original <code>osb_malnutricion5_17anos.csv</code>, que contiene información antropométrica de niños y adolescentes entre 5 y 17 años en distintas regiones de Colombia. A partir de esta fuente, se seleccionaron las siguientes variables esenciales para análisis de malnutrición:</p>
+    <ul>
+        <li><strong>Peso</strong> (kg)</li>
+        <li><strong>Altura</strong> (cm)</li>
+        <li><strong>Lugar</strong> (ubicación geográfica del registro)</li>
+    </ul>
+
+    <h2>2. Identificación de fuentes de datos relevantes</h2>
+    <p>La fuente contenía miles de registros. Se seleccionaron aleatoriamente 500 registros válidos como muestra representativa, conservando la estructura básica para el análisis exploratorio y desarrollo de modelos predictivos.</p>
+
+    <h2>3. Limpieza</h2>
+    <ul>
+        <li>Se eliminaron filas con valores faltantes en las columnas de interés (peso, altura, lugar).</li>
+        <li>Se filtraron los datos con valores atípicos o no realistas:
+            <ul>
+                <li>Peso fuera del rango 10 kg - 150 kg</li>
+                <li>Altura fuera del rango 80 cm - 210 cm</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>4. Transformación</h2>
+    <ul>
+        <li>Se añadieron nuevas variables al dataset:
+            <ul>
+                <li><strong>Edad</strong>: asignada aleatoriamente entre 5 y 17 años, para simular la edad del niño.</li>
+                <li><strong>Sexo</strong>: asignado aleatoriamente como “Masculino” o “Femenino”.</li>
+            </ul>
+        </li>
+        <li>Opcionalmente, se puede calcular una variable objetivo:
+            <ul>
+                <li><strong>Estado Nutricional</strong>: usando el IMC (Índice de Masa Corporal) con la fórmula <code>IMC = peso / (altura/100)^2</code> y clasificando como "Bajo peso", "Normal", o "Sobrepeso".</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>5. Documentación</h2>
+    <p>Todos los pasos fueron documentados, incluyendo:</p>
+    <ul>
+        <li>La fuente original (<code>osb_malnutricion5_17anos.csv</code>).</li>
+        <li>Selección de columnas relevantes y filtrado de registros válidos.</li>
+        <li>Asignación de variables adicionales (<code>Edad</code>, <code>Sexo</code>).</li>
+        <li>Exportación del dataset final en el archivo <code>dataset_arbol_decision.csv</code>, listo para usar en modelos como árboles de decisión o XGBoost.</li>
+    </ul>
+
+    <p>Este proceso asegura que los datos estén preparados adecuadamente para el entrenamiento de modelos supervisados en tareas de clasificación de estado nutricional o análisis de factores asociados.</p>
+
+</body>
+</html>
+
+
+
+{% endblock %}

@@ -1,0 +1,375 @@
+Lugar,Peso,Altura,Edad,Sexo
+Usaquén,54.1,157.5,11,Masculino
+Chapinero,44.4,138.7,13,Masculino
+Santa Fe,56.4,158.2,17,Femenino
+San Cristóbal,52.2,153.0,8,Masculino
+Usme,48.3,160.2,7,Masculino
+Tunjuelito,47.3,153.3,5,Masculino
+Bosa,53.4,155.3,9,Masculino
+Kennedy,56.1,144.3,9,Femenino
+Fontibón,67.1,153.8,9,Masculino
+Engativá,55.9,154.8,17,Masculino
+Suba,54.4,146.9,16,Femenino
+Barrios Unidos,52.1,156.3,15,Masculino
+Teusaquillo,61.4,163.3,15,Masculino
+Los Mártires,54.1,134.3,16,Femenino
+Antonio Nariño,59.4,150.4,13,Masculino
+Puente Aranda,47.7,165.2,8,Masculino
+La Candelaria,52.2,140.6,15,Femenino
+Rafael Uribe Uribe,47.1,160.5,9,Masculino
+Ciudad Bolívar,45.1,148.8,14,Femenino
+Sumapaz,57.2,161.5,11,Masculino
+Sin dato,50.7,158.6,5,Masculino
+Distrito,57.7,148.4,17,Femenino
+Usaquén,50.0,158.1,12,Femenino
+Chapinero,46.2,142.2,15,Masculino
+Santa Fe,51.0,143.9,7,Femenino
+San Cristóbal,41.8,157.5,9,Masculino
+Usme,47.4,159.2,14,Masculino
+Tunjuelito,55.8,152.5,7,Masculino
+Bosa,53.5,161.1,7,Masculino
+Kennedy,50.9,156.2,6,Femenino
+Fontibón,43.9,145.9,13,Masculino
+Engativá,56.5,158.3,14,Masculino
+Suba,52.9,169.8,5,Femenino
+Barrios Unidos,43.6,161.8,12,Femenino
+Teusaquillo,41.7,136.1,12,Masculino
+Los Mártires,49.7,156.2,9,Masculino
+Antonio Nariño,48.8,162.8,10,Masculino
+Puente Aranda,47.9,158.9,12,Femenino
+La Candelaria,45.1,157.2,12,Masculino
+Rafael Uribe Uribe,55.5,153.2,11,Masculino
+Ciudad Bolívar,50.7,147.3,8,Femenino
+Sumapaz,46.0,158.3,7,Masculino
+Sin dato,49.0,155.7,16,Masculino
+Distrito,51.7,149.7,8,Femenino
+Usaquén,42.9,157.5,15,Femenino
+Chapinero,53.9,160.3,10,Femenino
+Santa Fe,52.5,146.2,17,Femenino
+San Cristóbal,57.2,152.7,16,Femenino
+Usme,49.4,168.8,12,Femenino
+Tunjuelito,61.4,158.7,10,Masculino
+Bosa,61.8,160.0,9,Masculino
+Kennedy,74.1,157.0,7,Femenino
+Fontibón,54.7,154.6,6,Masculino
+Engativá,42.8,152.3,15,Masculino
+Suba,50.4,154.7,6,Masculino
+Barrios Unidos,61.2,151.4,16,Masculino
+Teusaquillo,48.1,165.9,17,Femenino
+Los Mártires,51.8,147.8,7,Femenino
+Antonio Nariño,39.1,150.6,6,Femenino
+Puente Aranda,50.4,154.0,14,Femenino
+La Candelaria,59.3,139.3,14,Femenino
+Rafael Uribe Uribe,56.7,155.7,11,Masculino
+Ciudad Bolívar,43.9,154.6,6,Masculino
+Sumapaz,47.7,152.5,14,Masculino
+Sin dato,40.5,157.4,13,Masculino
+Distrito,60.2,155.7,13,Masculino
+Usaquén,52.1,158.7,17,Masculino
+Chapinero,46.3,155.9,13,Femenino
+Santa Fe,51.8,160.0,15,Masculino
+San Cristóbal,52.5,149.4,12,Femenino
+Usme,65.2,141.4,8,Masculino
+Tunjuelito,55.8,153.3,7,Femenino
+Bosa,52.7,152.9,14,Femenino
+Kennedy,51.6,139.0,5,Masculino
+Fontibón,46.8,155.6,11,Femenino
+Engativá,61.2,165.1,7,Femenino
+Suba,54.0,151.1,12,Femenino
+Barrios Unidos,58.6,147.5,16,Masculino
+Teusaquillo,56.0,161.0,15,Masculino
+Los Mártires,60.5,143.2,14,Masculino
+Antonio Nariño,50.8,140.5,12,Femenino
+Puente Aranda,54.0,152.3,13,Masculino
+La Candelaria,50.0,170.7,11,Femenino
+Rafael Uribe Uribe,45.0,165.1,17,Masculino
+Ciudad Bolívar,48.4,156.8,17,Femenino
+Sumapaz,46.4,150.7,11,Femenino
+Sin dato,59.2,154.8,14,Masculino
+Distrito,54.9,161.6,13,Masculino
+Usaquén,44.6,156.9,10,Femenino
+Chapinero,56.3,159.2,9,Masculino
+Santa Fe,61.3,147.7,11,Femenino
+San Cristóbal,57.1,138.7,11,Femenino
+Usme,45.0,144.4,16,Femenino
+Tunjuelito,48.2,165.5,15,Masculino
+Bosa,51.6,158.8,10,Masculino
+Kennedy,57.9,150.4,15,Masculino
+Fontibón,53.6,159.6,8,Femenino
+Engativá,53.4,139.6,6,Masculino
+Suba,46.9,139.2,5,Femenino
+Barrios Unidos,51.2,155.8,13,Masculino
+Teusaquillo,48.3,152.6,13,Femenino
+Los Mártires,47.8,155.5,13,Masculino
+Antonio Nariño,57.7,144.5,8,Femenino
+Puente Aranda,44.5,165.6,10,Femenino
+La Candelaria,47.8,157.9,6,Femenino
+Rafael Uribe Uribe,49.1,146.6,5,Femenino
+Ciudad Bolívar,49.4,145.2,6,Femenino
+Sumapaz,52.4,151.7,7,Femenino
+Sin dato,41.7,143.4,8,Femenino
+Distrito,58.4,154.2,15,Femenino
+Usaquén,55.1,153.5,17,Femenino
+Chapinero,44.3,146.7,6,Femenino
+Santa Fe,50.2,153.7,14,Masculino
+San Cristóbal,50.7,151.1,6,Masculino
+Usme,64.3,151.2,12,Femenino
+Tunjuelito,61.4,154.4,8,Masculino
+Bosa,66.5,157.5,11,Masculino
+Kennedy,52.3,160.8,13,Femenino
+Fontibón,55.2,145.1,14,Masculino
+Engativá,53.9,145.1,14,Femenino
+Suba,46.2,157.7,9,Masculino
+Barrios Unidos,49.4,156.1,8,Femenino
+Teusaquillo,55.8,157.6,13,Femenino
+Los Mártires,55.8,158.4,17,Femenino
+Antonio Nariño,36.5,154.8,12,Femenino
+Puente Aranda,34.8,155.4,11,Masculino
+La Candelaria,47.4,158.8,13,Femenino
+Rafael Uribe Uribe,42.5,151.6,17,Masculino
+Ciudad Bolívar,52.0,160.0,17,Femenino
+Sumapaz,58.7,148.7,8,Masculino
+Sin dato,54.9,157.5,9,Femenino
+Distrito,49.9,145.6,8,Femenino
+Usaquén,54.5,152.9,11,Femenino
+Chapinero,51.7,145.6,16,Masculino
+Santa Fe,49.3,152.5,10,Masculino
+San Cristóbal,58.5,147.2,16,Femenino
+Usme,55.0,148.8,5,Femenino
+Tunjuelito,44.1,150.7,9,Femenino
+Bosa,42.1,154.2,8,Masculino
+Kennedy,48.0,160.8,17,Masculino
+Fontibón,32.5,156.3,8,Masculino
+Engativá,35.2,141.1,8,Femenino
+Suba,49.2,162.5,6,Femenino
+Barrios Unidos,42.9,148.4,9,Femenino
+Teusaquillo,56.8,155.6,13,Femenino
+Los Mártires,40.0,152.2,16,Masculino
+Antonio Nariño,50.0,146.8,5,Femenino
+Puente Aranda,53.0,159.0,14,Femenino
+La Candelaria,56.8,156.4,12,Femenino
+Rafael Uribe Uribe,46.2,146.2,13,Femenino
+Ciudad Bolívar,40.4,154.5,5,Masculino
+Sumapaz,50.9,169.1,16,Masculino
+Sin dato,44.8,145.7,15,Femenino
+Distrito,53.2,155.6,12,Femenino
+Usaquén,50.3,157.5,12,Masculino
+Chapinero,48.2,155.2,8,Femenino
+Santa Fe,40.1,163.3,6,Masculino
+San Cristóbal,70.4,144.1,13,Femenino
+Usme,64.3,153.0,9,Femenino
+Tunjuelito,56.4,162.4,9,Masculino
+Bosa,53.5,158.7,14,Masculino
+Kennedy,57.4,160.0,11,Femenino
+Fontibón,45.0,154.4,7,Masculino
+Engativá,49.5,153.0,15,Masculino
+Suba,65.0,155.9,8,Masculino
+Barrios Unidos,42.5,156.6,7,Femenino
+Teusaquillo,52.5,144.9,11,Masculino
+Los Mártires,47.5,159.4,13,Masculino
+Antonio Nariño,52.8,164.1,9,Masculino
+Puente Aranda,52.9,153.6,6,Femenino
+La Candelaria,49.8,162.6,5,Femenino
+Rafael Uribe Uribe,44.7,130.2,5,Masculino
+Ciudad Bolívar,46.3,144.6,15,Femenino
+Sumapaz,59.9,145.9,5,Femenino
+Sin dato,49.4,165.8,10,Femenino
+Distrito,51.5,158.5,8,Femenino
+Usaquén,45.6,154.8,14,Masculino
+Chapinero,54.8,168.5,7,Masculino
+Santa Fe,52.4,151.5,6,Masculino
+San Cristóbal,49.7,162.3,7,Masculino
+Usme,41.9,157.9,8,Femenino
+Tunjuelito,53.4,158.8,9,Masculino
+Bosa,50.7,140.6,14,Femenino
+Kennedy,46.0,168.4,15,Masculino
+Fontibón,60.4,158.9,16,Femenino
+Engativá,49.1,155.9,13,Masculino
+Suba,62.2,156.4,13,Masculino
+Barrios Unidos,53.3,152.1,12,Masculino
+Teusaquillo,47.8,161.6,16,Femenino
+Los Mártires,44.7,168.8,13,Masculino
+Antonio Nariño,46.5,129.9,5,Masculino
+Puente Aranda,47.2,154.2,8,Masculino
+La Candelaria,43.2,160.3,6,Masculino
+Rafael Uribe Uribe,52.6,163.9,7,Masculino
+Ciudad Bolívar,51.4,154.7,11,Masculino
+Sumapaz,54.3,137.2,8,Femenino
+Sin dato,47.3,142.9,6,Masculino
+Distrito,50.0,158.2,17,Masculino
+Usaquén,65.0,149.6,6,Masculino
+Chapinero,66.8,160.5,10,Masculino
+Santa Fe,56.8,172.9,13,Femenino
+San Cristóbal,55.7,161.1,6,Femenino
+Usme,46.6,163.5,16,Femenino
+Tunjuelito,48.6,141.9,5,Femenino
+Bosa,61.2,156.4,11,Masculino
+Kennedy,52.3,132.5,15,Femenino
+Fontibón,49.5,161.6,12,Femenino
+Engativá,51.4,150.6,15,Femenino
+Suba,52.3,137.7,12,Femenino
+Barrios Unidos,51.9,148.1,5,Femenino
+Teusaquillo,51.4,165.1,16,Masculino
+Los Mártires,58.1,152.6,5,Masculino
+Antonio Nariño,51.4,159.0,7,Masculino
+Puente Aranda,46.4,164.7,12,Femenino
+La Candelaria,51.1,159.7,6,Femenino
+Rafael Uribe Uribe,52.8,159.6,12,Masculino
+Ciudad Bolívar,42.1,143.3,15,Masculino
+Sumapaz,58.6,153.5,15,Masculino
+Sin dato,54.5,152.9,8,Masculino
+Distrito,43.9,147.1,10,Masculino
+Usaquén,55.8,151.8,5,Masculino
+Chapinero,59.5,143.9,12,Masculino
+Santa Fe,58.6,158.7,6,Masculino
+San Cristóbal,57.5,152.9,12,Masculino
+Usme,50.3,158.7,12,Masculino
+Tunjuelito,50.5,156.9,8,Femenino
+Bosa,62.0,160.5,8,Masculino
+Kennedy,55.1,161.2,9,Masculino
+Fontibón,48.5,166.7,6,Femenino
+Engativá,49.8,155.7,11,Masculino
+Suba,66.9,145.1,10,Femenino
+Barrios Unidos,52.0,140.1,6,Femenino
+Teusaquillo,43.2,151.0,7,Masculino
+Los Mártires,45.5,144.1,10,Masculino
+Antonio Nariño,47.9,142.2,11,Femenino
+Puente Aranda,54.6,157.1,7,Masculino
+La Candelaria,53.5,150.1,6,Masculino
+Rafael Uribe Uribe,51.1,155.9,10,Femenino
+Ciudad Bolívar,62.2,149.5,6,Masculino
+Sumapaz,55.5,155.0,13,Femenino
+Sin dato,47.3,154.1,6,Femenino
+Distrito,42.7,157.7,10,Femenino
+Usaquén,53.3,154.2,16,Femenino
+Chapinero,46.9,148.6,5,Masculino
+Santa Fe,52.7,169.0,7,Femenino
+San Cristóbal,53.6,146.1,8,Masculino
+Usme,57.2,164.3,15,Femenino
+Tunjuelito,44.1,148.0,8,Femenino
+Bosa,44.3,135.5,16,Masculino
+Kennedy,47.9,163.3,17,Femenino
+Fontibón,41.6,155.9,12,Masculino
+Engativá,59.1,153.2,7,Femenino
+Suba,52.2,158.3,9,Masculino
+Barrios Unidos,54.5,157.9,10,Masculino
+Teusaquillo,38.4,149.3,5,Masculino
+Los Mártires,56.1,154.9,16,Masculino
+Antonio Nariño,44.9,149.4,11,Masculino
+Puente Aranda,36.6,156.1,16,Femenino
+La Candelaria,54.1,149.8,11,Femenino
+Rafael Uribe Uribe,57.6,159.1,14,Femenino
+Ciudad Bolívar,45.0,140.8,13,Femenino
+Sumapaz,65.4,150.8,8,Masculino
+Sin dato,64.9,158.9,9,Femenino
+Distrito,46.2,147.3,11,Femenino
+Usaquén,55.2,150.5,5,Masculino
+Chapinero,56.5,151.8,7,Masculino
+Santa Fe,53.1,158.3,17,Masculino
+San Cristóbal,41.3,160.0,11,Femenino
+Usme,54.5,162.4,12,Femenino
+Tunjuelito,52.8,161.1,6,Masculino
+Bosa,59.8,147.1,14,Femenino
+Kennedy,50.0,148.9,13,Masculino
+Fontibón,53.4,158.1,6,Femenino
+Engativá,39.9,151.5,12,Masculino
+Suba,64.5,151.7,6,Masculino
+Barrios Unidos,43.1,159.7,12,Femenino
+Teusaquillo,50.2,152.2,10,Masculino
+Los Mártires,49.1,161.3,15,Masculino
+Antonio Nariño,51.5,161.0,15,Femenino
+Puente Aranda,51.5,162.0,11,Masculino
+La Candelaria,46.0,156.9,12,Masculino
+Rafael Uribe Uribe,46.4,157.1,9,Masculino
+Ciudad Bolívar,50.0,131.8,8,Masculino
+Sumapaz,53.8,150.5,11,Masculino
+Sin dato,49.0,138.4,9,Masculino
+Distrito,52.9,165.3,6,Masculino
+Usaquén,48.1,162.6,5,Femenino
+Chapinero,49.2,166.0,9,Masculino
+Santa Fe,54.9,141.8,9,Femenino
+San Cristóbal,42.4,165.9,12,Femenino
+Usme,50.3,159.1,12,Masculino
+Tunjuelito,48.1,147.1,13,Femenino
+Bosa,54.0,160.0,16,Femenino
+Kennedy,66.0,150.8,12,Femenino
+Fontibón,73.8,151.7,9,Femenino
+Engativá,52.3,160.4,17,Femenino
+Suba,38.7,156.6,12,Masculino
+Barrios Unidos,52.5,149.6,12,Masculino
+Teusaquillo,49.9,151.1,12,Masculino
+Los Mártires,57.6,151.0,8,Femenino
+Antonio Nariño,56.8,155.3,11,Masculino
+Puente Aranda,66.7,157.6,11,Femenino
+La Candelaria,59.1,156.7,15,Femenino
+Rafael Uribe Uribe,48.0,151.3,16,Femenino
+Ciudad Bolívar,64.0,152.0,13,Masculino
+Sumapaz,49.9,163.8,9,Femenino
+Sin dato,49.8,158.5,5,Femenino
+Distrito,43.0,164.1,13,Femenino
+Usaquén,47.9,154.8,17,Femenino
+Chapinero,43.2,154.4,15,Femenino
+Santa Fe,43.4,166.8,5,Femenino
+San Cristóbal,61.1,155.2,11,Femenino
+Usme,52.3,148.3,10,Femenino
+Tunjuelito,58.8,143.2,8,Masculino
+Bosa,70.3,144.0,16,Masculino
+Kennedy,46.1,156.0,10,Masculino
+Fontibón,55.9,158.6,9,Femenino
+Engativá,49.7,155.9,14,Femenino
+Suba,37.0,151.5,14,Masculino
+Barrios Unidos,53.6,155.4,5,Femenino
+Teusaquillo,67.0,151.5,16,Masculino
+Los Mártires,49.0,159.7,13,Femenino
+Antonio Nariño,58.9,156.3,9,Masculino
+Puente Aranda,50.4,148.9,7,Masculino
+La Candelaria,39.5,161.2,8,Femenino
+Rafael Uribe Uribe,49.5,160.8,7,Femenino
+Ciudad Bolívar,62.2,168.0,5,Masculino
+Sumapaz,49.7,138.7,13,Femenino
+Sin dato,50.2,156.0,8,Femenino
+Distrito,56.6,161.2,7,Femenino
+Usaquén,60.9,153.9,10,Masculino
+Chapinero,55.2,157.0,17,Masculino
+Santa Fe,58.3,154.7,6,Masculino
+San Cristóbal,54.2,150.6,17,Femenino
+Usme,49.2,150.3,12,Masculino
+Tunjuelito,48.9,154.5,10,Masculino
+Bosa,46.5,156.3,5,Femenino
+Kennedy,49.2,157.1,5,Masculino
+Fontibón,67.3,169.4,10,Masculino
+Engativá,43.9,150.1,5,Masculino
+Suba,50.4,153.0,16,Femenino
+Barrios Unidos,49.6,150.0,5,Femenino
+Teusaquillo,56.5,150.5,10,Masculino
+Los Mártires,43.4,159.3,12,Masculino
+Antonio Nariño,54.3,140.3,10,Femenino
+Puente Aranda,55.5,151.0,10,Masculino
+La Candelaria,49.0,155.2,16,Femenino
+Rafael Uribe Uribe,52.6,148.4,15,Femenino
+Ciudad Bolívar,57.8,158.4,14,Femenino
+Sumapaz,53.8,153.8,10,Femenino
+Sin dato,50.0,151.2,11,Masculino
+Distrito,52.3,158.5,6,Femenino
+Usaquén,35.8,141.6,13,Femenino
+Chapinero,44.6,157.1,15,Femenino
+Santa Fe,62.0,153.0,13,Femenino
+San Cristóbal,49.0,147.5,17,Masculino
+Usme,45.2,151.7,9,Masculino
+Tunjuelito,49.6,148.6,10,Femenino
+Bosa,52.4,155.6,17,Femenino
+Kennedy,47.6,135.9,5,Masculino
+Fontibón,71.0,156.5,8,Femenino
+Engativá,49.0,153.4,6,Femenino
+Suba,64.6,158.1,5,Femenino
+Barrios Unidos,56.1,163.6,14,Masculino
+Teusaquillo,62.4,136.9,10,Femenino
+Los Mártires,45.8,152.7,9,Masculino
+Antonio Nariño,48.7,165.5,9,Femenino
+Puente Aranda,52.7,157.9,7,Femenino
+La Candelaria,63.1,145.1,6,Masculino
+Rafael Uribe Uribe,58.2,164.1,8,Masculino
+Ciudad Bolívar,49.3,131.7,17,Masculino
+Sumapaz,51.6,144.9,11,Femenino
+Sin dato,59.9,142.2,6,Masculino
+Distrito,70.0,153.2,10,Femenino
