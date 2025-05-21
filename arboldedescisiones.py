@@ -13,11 +13,11 @@ df["IMC"] = df["Peso"] / (df["Altura"] / 100) ** 2
 # Clasificar estado nutricional
 def clasificar_estado(imc):
     if imc < 18.5:
-        return "Malnutrición"
+        return "Posible caso de Malnutrición"
     elif imc < 25:
-        return "Normal"
+        return "Caso Normal"
     else:
-        return "Sobrepeso"
+        return "Posible caso de Sobrepeso"
 
 df["EstadoNutricional"] = df["IMC"].apply(clasificar_estado)
 
@@ -34,3 +34,5 @@ model.fit(X, y)
 
 # Guardar modelo
 joblib.dump(model, "modelo_arbol.pkl")
+
+
