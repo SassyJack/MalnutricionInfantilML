@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block title %}Ingenieria del Modelo{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ingeniería del Modelo: Predicción de Malnutrición Infantil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Ingeniería del Modelo: Predicción de Malnutrición Infantil</h1>
+
+        <h3>1. Selección de Algoritmos</h3>
+        <p>Perfecto, entonces vamos a desarrollar la Ingeniería del Modelo utilizando Árbol de Decisión como algoritmo
+            principal. A continuación se muestra cómo quedaría esta sección enfocada solo en este modelo:</p>
+
+        <h5>Selección del Algoritmo: Árbol de Decisión</h5>
+        <h5>Justificación:</h5>
+        <ul>
+            <li>Es fácil de interpretar y visualizar.</li>
+            <li>Funciona bien con variables categóricas y numéricas.</li>
+            <li>Tiene buen rendimiento en datasets pequeños o medianos como el tuyo (500 registros).</li>
+        </ul>
+
+        <h5>Datos utilizados:</h5>
+        <ul>
+            <li>Variables predictoras: peso, altura, edad, sexo, lugar.</li>
+            <li>Variable objetivo: estado nutricional (Bajo peso, Normal, Sobrepeso), calculado mediante el IMC.</li>
+        </ul>
+
+        <div class="section-divider"></div>
+
+        <h3>2. Entrenamiento</h3>
+        <h5>Objetivo:</h5>
+        <p>Aplicar los datos transformados al algoritmo seleccionado.</p>
+
+        <h5>Acción sugerida:</h5>
+        <ul>
+            <li>Divide el dataset en entrenamiento y prueba.</li>
+            <li>Usa las variables: peso, altura, edad, sexo, lugar para predecir el estado nutricional.</li>
+            <li>Aplica el algoritmo y ajusta para que aprenda la relación entre las variables y la etiqueta nutricional.
+            </li>
+        </ul>
+
+        <h5>Ajuste de Hiperparámetros</h5>
+        <h5>Enfoque aplicado:</h5>
+        <p>Se utilizó un dataset existente (posterior al proceso de limpieza y transformación) y se solicitó a ChatGPT
+            ajustar los hiperparámetros del modelo de Árbol de Decisión con base en las variables disponibles (peso,
+            altura, edad, sexo, lugar) para mejorar su rendimiento en la predicción del estado nutricional.</p>
+
+        <h3>3. Hiperparámetros ajustados:</h3>
+        <ul>
+            <li><strong>max_depth:</strong> se limitó para evitar sobreajuste y mantener interpretabilidad.</li>
+            <li><strong>min_samples_split:</strong> se configuró para controlar la mínima cantidad de muestras
+                necesarias para dividir un nodo.</li>
+            <li><strong>criterion:</strong> se probó tanto "gini" como "entropy" para evaluar la mejor opción de
+                división.</li>
+        </ul>
+
+        <h5>Método utilizado:</h5>
+        <p>Se realizó un proceso de prueba y error guiado por ChatGPT para encontrar la combinación óptima de
+            hiperparámetros que ofreciera el mejor balance entre precisión y simplicidad del árbol.</p>
+
+        <h5>Resultado:</h5>
+        <p>Se obtuvo un árbol más eficiente, con mejor generalización y comprensión lógica del problema, ideal para su
+            uso en contextos sociales y de salud pública.</p>
+
+        <div class="section-divider"></div>
+
+        <h3>4. Validación</h3>
+        <h5>Objetivo:</h5>
+        <p>Evaluar el desempeño del modelo de Árbol de Decisión usando datos que no fueron utilizados durante el
+            entrenamiento, para asegurar que generaliza correctamente a nuevos casos.</p>
+
+        <h5>Procedimiento aplicado:</h5>
+        <ol>
+            <li>
+                <strong>División del conjunto de datos:</strong>
+                <ul>
+                    <li>El dataset ajustado se dividió en:</li>
+                    <ul>
+                        <li>80% para entrenamiento</li>
+                        <li>20% para prueba</li>
+                    </ul>
+                    <li>Esto permite evaluar el rendimiento real sin introducir sesgo de sobreentrenamiento.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Métricas utilizadas:</strong>
+                <ul>
+                    <li>Precisión (Accuracy): Proporción de clasificaciones correctas.</li>
+                    <li>Matriz de Confusión: Para analizar los errores específicos entre clases (Bajo peso, Normal,
+                        Sobrepeso).</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Resultados esperados:</strong>
+                <ul>
+                    <li>Alta precisión en la clasificación del estado nutricional.</li>
+                    <li>Buen comportamiento en todas las clases, especialmente en la clase “Bajo peso” por su relevancia
+                        social.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+</body>
+
+</html>
+
+{% endblock %}

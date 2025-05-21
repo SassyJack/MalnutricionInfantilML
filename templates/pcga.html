@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %}PCGA{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicción de Malnutrición Infantil en Bogotá</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Predicción de Malnutrición Infantil en Bogotá</h1>
+        
+        <h3>Planteamiento del problema y justificación</h3>
+        <p>
+            La malnutrición infantil representa una amenaza crítica para el desarrollo físico y cognitivo de millones de niños,
+            particularmente en regiones vulnerables como Bogotá. De acuerdo con la Organización Mundial de la Salud (OMS),
+            el 45% de las muertes en menores de 5 años están relacionadas con la desnutrición.
+            Esta problemática no solo compromete la supervivencia infantil, sino que también limita el potencial de desarrollo de la sociedad.
+        </p>
+        <p>
+            Este proyecto busca abordar esta situación desarrollando un modelo de machine learning capaz de predecir el riesgo de malnutrición infantil
+            (malnutrición, nutrición adecuada) a partir de datos clínicos, antropométricos y socioeconómicos.
+            Además, la iniciativa está alineada con los Objetivos de Desarrollo Sostenible, contribuyendo directamente al ODS 2 (Hambre cero) y al ODS 3 (Salud y bienestar).
+        </p>
+
+        <h3>Objetivos del proyecto</h3>
+        <h5>Objetivo general</h5>
+        <p>
+            Desarrollar un modelo de machine learning supervisado que permita predecir el nivel de riesgo de malnutrición infantil en Bogotá,
+            a partir de variables antropométricas, socioeconómicas y clínicas, con el fin de apoyar la toma de decisiones en programas sociales y de salud pública.
+        </p>
+        <h5>Objetivos específicos</h5>
+        <ul>
+            <li>Recopilar y limpiar datos relevantes sobre malnutrición infantil, incluyendo variables antropométricas, socioeconómicas y clínicas.</li>
+            <li>Implementar un modelo de aprendizaje supervisado (como árboles de decisión o XGBoost) para clasificar el riesgo de malnutrición.</li>
+            <li>Validar el modelo mediante métricas de evaluación estándar para asegurar su precisión y utilidad práctica.</li>
+        </ul>
+
+        <h3>ODS (Objetivos de Desarrollo Sostenible) Relacionados</h3>
+        <ul>
+            <li><strong>ODS 2: Hambre Cero</strong>: Reducir la prevalencia de desnutrición en poblaciones vulnerables.</li>
+            <li><strong>ODS 3: Salud y Bienestar</strong>: Mejorar la calidad de vida de los niños mediante intervenciones preventivas eficaces.</li>
+        </ul>
+
+        <h3>Marco referencial</h3>
+        <p>
+            Este proyecto se basa en el marco metodológico CRISP-ML, una extensión del modelo CRISP-DM enfocado en el desarrollo de soluciones de machine learning con garantías de calidad.
+            Se emplean algoritmos de clasificación supervisada como árboles de decisión y XGBoost, debido a su efectividad comprobada en contextos de predicción de riesgos en salud.
+        </p>
+        <p>
+            Las referencias técnicas provienen de fuentes como KDnuggets, ML-Ops.org y publicaciones académicas revisadas por pares.
+            Además, se apoyó el proceso de redacción y análisis con herramientas de inteligencia artificial para asegurar claridad, coherencia y rigor académico.
+        </p>
+        <h3>Metodología</h3>
+    <p>El proyecto se desarrollará siguiendo la metodología <strong>CRISP-ML</strong>, una evolución del modelo CRISP-DM, adaptada específicamente para proyectos modernos de Machine Learning. Esta metodología proporciona un marco estructurado y enfocado a resultados, con énfasis en la integración del modelo en sistemas reales, su validación y monitoreo posterior. Las fases que se implementarán son:</p>
+
+    <ol>
+        <li><strong>Entendimiento del Negocio y los Datos</strong><br>
+            Se identificarán los objetivos del proyecto en relación con la malnutrición infantil, se evaluará la disponibilidad y calidad de los datos y se analizará la viabilidad técnica del modelo.
+        </li>
+        <li><strong>Ingeniería de Datos</strong><br>
+            Se realizará la limpieza, transformación, selección y documentación de las variables antropométricas, clínicas y socioeconómicas, asegurando su preparación para el modelado.
+        </li>
+        <li><strong>Ingeniería del Modelo</strong><br>
+            Se seleccionarán e implementarán algoritmos de clasificación supervisada como Árboles de Decisión. Además, se ajustarán hiperparámetros y se validarán los modelos con datos separados del entrenamiento.
+        </li>
+        <li><strong>Evaluación del Modelo</strong><br>
+            Se aplicarán métricas como precisión, recall y F1-score, junto con validación cruzada y revisión con expertos, para garantizar la utilidad práctica y precisión del modelo.
+        </li>
+        <li><strong>Despliegue y Monitoreo</strong><br>
+            Se publicará el modelo en un entorno web (Render) y se establecerán mecanismos de retroalimentación y mantenimiento básico. Esta etapa marca la transición del modelo hacia su uso práctico.
+        </li>
+    </ol>
+
+    <h3>Cronograma de desarrollo</h3>
+    <table class="table table-dark table-bordered">
+        <thead>
+            <tr>
+                <th>Semana</th>
+                <th>Fase</th>
+                <th>Actividades principales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Semana 1</td>
+                <td>Entendimiento del negocio y los datos</td>
+                <td>Definición del problema, análisis de variables disponibles, evaluación de viabilidad</td>
+            </tr>
+            <tr>
+                <td>Semana 2</td>
+                <td>Ingeniería de datos</td>
+                <td>Limpieza, transformación y codificación de datos; documentación del proceso</td>
+            </tr>
+            <tr>
+                <td>Semana 3</td>
+                <td>Ingeniería del modelo</td>
+                <td>Implementación de algoritmos; entrenamiento, validación inicial y ajuste de parámetros</td>
+            </tr>
+            <tr>
+                <td>Semana 4</td>
+                <td>Evaluación del modelo</td>
+                <td>Evaluación con métricas, validación cruzada, análisis de riesgos y retroalimentación</td>
+            </tr>
+            <tr>
+                <td>Semana 5</td>
+                <td>Despliegue del modelo y monitoreo inicial</td>
+                <td>Publicación en la web, documentación, presentación del proyecto y análisis de resultados</td>
+            </tr>
+        </tbody>
+    </table>
+
+        <h3>Referencias</h3>
+        <ul>
+            <li>KDnuggets. (2025). <em>Model evaluation in machine learning: Ensuring reliability in real-world applications</em>. <a href="https://www.kdnuggets.com" target="_blank">https://www.kdnuggets.com</a></li>
+            <li>ML-Ops.org. (s.f.). <em>Best practices for model deployment and monitoring</em>. <a href="https://ml-ops.org" target="_blank">https://ml-ops.org</a></li>
+            <li>Schmid, J., Wurst, M., & Wirth, R. (2020). <em>Towards CRISP-ML(Q): A machine learning process model with quality assurance methodology</em>. Journal of Machine Learning Research, 21(123), 1-23.</li>
+            <li>World Health Organization. (2021). <em>Malnutrition in children: Key facts</em>. <a href="https://www.who.int/news-room/fact-sheets/detail/malnutrition" target="_blank">https://www.who.int/news-room/fact-sheets/detail/malnutrition</a></li>
+            <li>PlantVillage. (s.f.). <em>PlantVillage dataset: Images of crop diseases</em>. Pennsylvania State University. <a href="https://plantvillage.psu.edu" target="_blank">https://plantvillage.psu.edu</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+{% endblock %}
